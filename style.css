@@ -1,0 +1,131 @@
+body {
+  font-family: font-family: beaufort-pro, serif;
+  min-height: 854px;
+  background-image: url("https://i.imgur.com/VDYx9oc.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.imagemtop{
+position: static;
+}
+.imagi{
+  
+  position: static;
+  padding-left: 25%;
+  width: 50%;
+  height:50%;
+}
+
+.container {
+  position: flex;
+  text-align: center;
+  align-content: middle;
+  padding-top: 10px;
+  padding-left: 0;
+  background-position: center;
+  background-color: #030910;
+  border: solid 2px #c8aa6d;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 5px 0;
+}
+.butau {
+   position: center;  
+}
+
+h3{
+  font-family: 'Marcellus SC', serif;
+  color: #cdbe91;
+  font-size: 40px;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 3px;
+  font-weight: bold;
+  border: solid 1px #c8aa6d;
+  color: #cdbe91;
+  background-color: #1e2328;
+  font-size: 1rem;
+  margin-bottom: 100px;
+}
+button:hover {
+  ext-shadow: 0 0 5px #ffffff80;
+  box-shadow: 0 0 8px 0 #ffffff50;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+
+h2 {
+  color: white;
+  font-family: Arial, sans-serif;
+  size: 20px;
+}
+
+#carta-jogador {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+img {
+  max-height: 400px;
+}
+.carta-imagem img {
+  width: 100px;
+  height: 100px;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 1.5rem;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.opcoes {
+  font-family: 'Marcellus SC', serif;
+  color: #cdbe91;
+  font-size: 36px;
+  align-items: center;
+}
+
+#resultado {
+  font-family: 'arial', sans-serif;
+  font-size: 40px;
+  color:	white;
+  margin-bottom: 30px;
+  margin-top -520px;
+}
+
+.resultado1 {
+  font-family: 'arial', sans-serif;
+  font-size: 40px;
+  color:	white;
+  margin-bottom: 30px;
+  margin-top -520px;
+}
