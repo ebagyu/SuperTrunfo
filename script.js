@@ -70,6 +70,16 @@ var cartas = [
       defesa: 6,
       magia: 3
     }
+  },
+  {
+    nome: "Lux",
+    imagem:
+      "https://media.discordapp.net/attachments/976523611655516250/1019386917130874881/unknown.png?width=311&height=469",
+    atributos: {
+      ataque: 3,
+      defesa: 5,
+      magia: 12
+    }
   }
 ];
 
@@ -77,14 +87,14 @@ var cartaMaquina = 0;
 var cartaJogador = 0;
 
 function sortearCarta() {
-  var numerCartaMaquina = parseInt(Math.random() * 8);
+  var numerCartaMaquina = parseInt(Math.random() * 9);
   cartaMaquina = cartas[numerCartaMaquina];
   console.log(cartaMaquina);
 
-  var numerCartaJogador = parseInt(Math.random() * 8);
+  var numerCartaJogador = parseInt(Math.random() * 9);
 
   while (numerCartaMaquina == numerCartaJogador) {
-    var numerCartaJogador = parseInt(Math.random() * 8);
+    var numerCartaJogador = parseInt(Math.random() * 9);
   }
 
   cartaJogador = cartas[numerCartaJogador];
