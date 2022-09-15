@@ -10,26 +10,32 @@ body {
 }
 
 .imagemtop{
-position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .imagi{
-  
-  position: static;
-  padding-left: 25%;
   width: 50%;
   height:50%;
 }
 
 .container {
-  position: flex;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  align-content: middle;
-  padding-top: 10px;
-  padding-left: 0;
+}
+.box {
+  width: 800px;
+  height: 1500px;
   background-position: center;
   background-color: #030910;
   border: solid 2px #c8aa6d;
-}
+    }
 
 .page-title {
   color: #ffffff;
@@ -54,7 +60,6 @@ button {
   color: #cdbe91;
   background-color: #1e2328;
   font-size: 1rem;
-  margin-bottom: 100px;
 }
 button:hover {
   ext-shadow: 0 0 5px #ffffff80;
